@@ -8,7 +8,7 @@ self_name() {
 JETHUB_J80=jethub-j80
 JETHUB_J100=jethub-j100
 
-if [[ $# -le 2 ]]; then
+if [[ $# -lt 2 ]]; then
   echo "Script to import prebuilt U-Boot files into this project."
   echo
   echo "Usage: $(self_name) <import_dir> <$JETHUB_J80|$JETHUB_J100> [hassos]"
@@ -34,7 +34,7 @@ case $PLATFORM in
 		;;
 esac
 
-if [ -z $3 ]; then
+if [ -z "$3" ]; then
 PLATFORM=$2
 else
 PLATFORM=hassos/$2
