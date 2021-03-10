@@ -1,4 +1,4 @@
-#define PLAIN_VERSION "2015.01-armbian-g4a4820487c"
+#define PLAIN_VERSION "2015.01-armbian-g14be3deabb"
 #define U_BOOT_VERSION "U-Boot " PLAIN_VERSION
 #define CONFIG_SYSTEM_AS_ROOT ""
 #define CONFIG_AVB2 ""
