@@ -1,6 +1,7 @@
-#define PLAIN_VERSION "2021.07-rc2-00083-gb78454f6760-dirty"
+#define PLAIN_VERSION "2015.01-jethome-g96ac829f35"
 #define U_BOOT_VERSION "U-Boot " PLAIN_VERSION
-#define U_BOOT_VERSION_NUM 2021
-#define U_BOOT_VERSION_NUM_PATCH 7
-#define CC_VERSION_STRING "aarch64-elf-gcc (Linaro GCC 7.5-2019.12) 7.5.0"
-#define LD_VERSION_STRING "GNU ld (Linaro_Binutils-2019.12) 2.28.2.20170706"
+#define CONFIG_SYSTEM_AS_ROOT ""
+#define CONFIG_AVB2 ""
+#define CONFIG_CMD_BOOTCTOL_VAB ""
+#define CC_VERSION_STRING "aarch64-none-elf-gcc (Linaro GCC 2014.11) 4.9.3 20141031 (prerelease)"
+#define LD_VERSION_STRING "GNU ld (GNU Binutils) Linaro 2014.11-3-git 2.24.0.20141017"
