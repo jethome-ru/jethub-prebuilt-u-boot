@@ -7,11 +7,12 @@ self_name() {
 
 JETHUB_J80=jethub-j80
 JETHUB_J100=jethub-j100
+JETHUB_J200=jethub-j200
 
 if [[ $# -lt 2 ]]; then
   echo "Script to import prebuilt U-Boot files into this project."
   echo
-  echo "Usage: $(self_name) <import_dir> <$JETHUB_J80|$JETHUB_J100> [hassos]"
+  echo "Usage: $(self_name) <import_dir> <$JETHUB_J80|$JETHUB_J100|$JETHUB_J200> [hassos]"
   echo
   echo "example 1: $(self_name) /opt/u-boot $JETHUB_J80"
   echo "example 2: $(self_name) /home/user/src/u-boot $JETHUB_J100"
@@ -27,6 +28,8 @@ case $PLATFORM in
 	"$JETHUB_J80" )
 		;;
 	"$JETHUB_J100" )
+		;;
+	"$JETHUB_J200" )
 		;;
 	* )
 		echo "Incorrect second argument"

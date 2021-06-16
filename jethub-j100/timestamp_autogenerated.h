@@ -1,3 +1,3 @@
-#define U_BOOT_DATE "Jun 10 2021"
-#define U_BOOT_TIME "14:17:48"
-#define U_BOOT_DATE_TIME "210610.141748"
+#define U_BOOT_DATE "Jun 16 2021"
+#define U_BOOT_TIME "10:34:09"
+#define U_BOOT_DATE_TIME "210616.103409"
