@@ -1,4 +1,4 @@
-#define PLAIN_VERSION "2015.01-jethome-g83cb8800c17-dirty"
+#define PLAIN_VERSION "2015.01-jethome-gc01cfbbcfbc"
 #define U_BOOT_VERSION "U-Boot " PLAIN_VERSION
 #define CONFIG_SYSTEM_AS_ROOT ""
 #define CONFIG_AVB2 ""
